@@ -1,0 +1,16 @@
+# --- core ---
+streamlit>=1.36
+pandas>=2.0
+plotly>=5.20
+pydantic>=2.5
+
+# --- LLM providers (install the one you use; all optional — mock works without any) ---
+anthropic>=0.40
+openai>=1.30
+google-generativeai>=0.7
+
+# --- deck / asset generation (optional) ---
+matplotlib>=3.7
+
+# --- tests (optional, dev) ---
+pytest>=8.0
