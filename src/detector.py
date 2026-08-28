@@ -71,7 +71,7 @@ INACTIVE_CEIL = 60    # >=60 days inactive = max risk on that axis
 DEFAULT_MODELS = {
     "anthropic": os.getenv("CLAUDE_MODEL", "claude-sonnet-5"),
     "openai": os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
-    "gemini": os.getenv("GEMINI_MODEL", "gemini-1.5-flash"),
+    "gemini": os.getenv("GEMINI_MODEL", "gemini-3.6-flash"),
 }
 
 # ---------------------------------------------------------------------------
